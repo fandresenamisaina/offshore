@@ -1,0 +1,361 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header .mi {
+    position: relative;
+    right: 920px;
+    font-size: 22px;
+}
+body {
+    background-color: #f8fafb;
+}
+.header i {
+    color: brown;
+    position: relative;
+    left: 450px;
+    bottom: 20px;
+}
+.header p a {
+    color: grey;
+    position: relative;
+    left: 450px;
+    font-size: 19px;
+    bottom: 20px;
+}
+#p{
+    background-color: #dddddd;
+    height: 105px;
+    width: 100%;
+}
+#p .row .s2 {
+    position: relative;
+    left: 85px;
+}
+#p .titre {
+    position: relative;
+    bottom: 15px;
+    font-size: 30px;
+}
+#p .row .s8 a{
+    color: grey;
+    border-right: solid;
+    position: relative;
+    left: 400px;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 100px;
+}
+#p .row .s8 a:last-child{
+    border-right: none;
+}
+.conseil {
+    background-image: url(image/ma.png);
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: 1700px;
+}
+.conseil p {
+    color: white;
+    width: 700px;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+}
+.conseil h1 {
+    color: white; 
+    width: 800px;
+    font-size: 80px;
+    position: relative;
+    top: 50px;
+}
+.conseil .titre  {
+    color: white;
+    border-right: solid;
+    position: relative;
+    border-color: brown;
+    top: 50px;
+    margin-inline: 480px;
+    right: 480px;
+}
+.conseil .boutton {
+    position: relative;
+    top: 15px;
+}
+.conseil .tête {
+    position: relative;
+    top: 60px;
+}
+.conseil .boutton button {
+    border: 3px solid;
+    border-radius: 60px;
+    border-color: white;
+    background: transparent;
+    font-size: 30px;
+    margin-inline: 20px;
+    position: relative;
+    right: 20px;
+    padding: 20px;
+    top: 70px;
+}
+.conseil .boutton a {
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    padding: 50px;
+    position: relative;
+    bottom: 5px;
+    color: white;
+}
+.centrer {
+    padding: 10px;
+}
+.centrer h1 {
+    text-align: center;
+    color: brown;
+}
+.centrer p {
+    text-align: center;
+}
+.service {
+    padding: 20px;
+}
+.service .s6 p {
+    width: 350px;
+}
+.service .s6{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 130px;
+}
+.service .s6 .mir {
+    padding-left: 20px;
+    font-size: 16px;
+}
+.service .card .card-content  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 150px;
+}
+.service .card .card-content  .ka {
+    width: 350px;
+    padding-left: 20px;
+}
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 10px;
+}
+.service1 {
+    padding: 20px;
+}
+.service1 .s6 p {
+    width: 350px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.service1 .s6 h5 {
+    padding-left: 20px;
+}
+.service1 .s6{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service1 .s6 .kira {
+    font-size: 14px;
+}
+.service1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.card .s6 p {
+    width: 500px;
+    font-size: 17px;
+}
+.card  .card-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f8fafb;
+}
+.card .card-content  {
+    background-size: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card .card-content .s6 p {
+    font-size: 17px;
+}
+.card .card-content .s6  {
+        padding-left: 250px;
+}
+.card .card-content .s6 a {
+    position: relative;
+    right: 230px;
+}
+.card .card-content .s6 a img {
+margin-left: 30px;
+}
+.ki .row  {
+    padding: 40px;
+    background-image: url(image/img.png);
+    color: white;
+    padding-left: 240px;
+    gap: 130px;
+}
+.ki .row .s6 a {
+    position: relative;
+    left: 290px;
+    border: solid white;
+    border-radius: 60px;
+    top: 50px;
+    padding: 30px;
+}
+.article .row {
+    gap: 80px;
+}
+.centrer1 {
+    padding: 10px;
+}
+.centrer1 h1 {
+    text-align: center;
+    color: brown;
+}
+.centrer1 p {
+    text-align: center;
+}
+.Evaluation {
+    padding-top: 50px;
+}
+.centrer2 {
+    padding: 10px;
+}
+.centrer2 h1 {
+    text-align: center;
+    color: brown;
+}
+.centrer2 p {
+    text-align: center;
+}
+.article .row a {
+    color: #a59577;
+}
+.centrer3 {
+    padding: 10px;
+}
+.centrer3 .i {
+    text-align: center;
+}
+.centrer3 h1 {
+    text-align: center;
+    color: brown;
+}
+.mage {
+    padding: 200px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+body {
+    background: #222;
+    font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 40px;
+    overflow-x: hidden; 
+}
+.avis {
+    background: #555;
+    color: white;
+    max-width: 475px; 
+    width: 90%;      
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 4px;
+    position: relative;
+    font-size: 18px;
+    box-sizing: border-box;
+    right: 300px;
+}
+.avis::after {
+     content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 20px 20px 0 20px;
+    border-style: solid;
+    border-color: #555 transparent;
+}
+.auteur {
+    margin-top: 40px;
+    color: white;
+}
+
+.auteur h2 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+    position: relative;
+    right: 300px;
+}
+
+.auteur span {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #bbb;
+    position: relative;
+    top: 6px;
+    right: 300px;
+}
+.pied {
+    background-color: #232323;
+    width: 1850px;
+}
+.pied .row .s6 h1 {
+    color: white;
+    text-align: left;
+    margin-left: 130px;
+}
+.pied .row .s6 .op {
+    color: #515151;
+    text-align: left;
+    margin-left: 130px;
+}
+.pied .row  .s6 {
+    padding: 50px;
+    text-align: center;
+}
+.pied   .row {
+    
+}
+.ff i {
+    color: white;
+    padding-left: 50px;
+    font-size: 20px;
+    margin-left: 130px;
+}
+.point .points {
+    position: relative;
+    left: 1050px;
+    bottom: 20px;
+    padding: 30px;
+}
+.fin {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.fin i {
+    position: absolute;
+    left: 1330px;
+}
