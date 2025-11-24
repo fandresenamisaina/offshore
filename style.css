@@ -88,6 +88,9 @@ footer{
 #n{
     display: none;
 }
+section{
+    margin-top: 30px;
+}
 
 @media screen and (max-width:1440px){
     h5{
@@ -122,6 +125,24 @@ footer{
     footer .row .l4 img {
         width: 250px;
         height: auto;
+    }
+    p{
+        font-size: smaller;
+    }
+    .container h5{
+        font-size:medium;
+    }
+    .container .m8 h6{
+        font-size: smaller;
+    }
+    .m10 h4{
+        font-size: small;
+    }
+    .container .col a{
+        font-size: xx-small;
+    }
+    .col input{
+        font-size: xx-small;
     }
 }
 @media screen and (max-width:768px) {
