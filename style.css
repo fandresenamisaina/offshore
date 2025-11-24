@@ -151,20 +151,25 @@ margin-left: 100px;
     margin-left: 250px;
 }
 .ki .row  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 100px;
     padding: 40px;
     background-image: url(image/img.png);
     color: white;
-    gap: 130px;
+
 }
 .ki .row .s6 a {
     border: solid white;
     border-radius: 60px;
+    position: relative;
     top: 50px;
 }
 .article .row {
     gap: 80px;
 }
-centrer1 {
+.centrer1 {
     padding: 10px;
 }
 .centrer1 h1 {
@@ -221,7 +226,7 @@ centrer1 {
     position: relative;
     font-size: 18px;
     box-sizing: border-box;
-    right: 300px;
+
 }
 .avis::after {
     content: "";
@@ -243,7 +248,7 @@ centrer1 {
     margin: 0;
     font-weight: bold;
     position: relative;
-    right: 300px;
+
 }
 
 .auteur span {
@@ -252,7 +257,7 @@ centrer1 {
     color: #bbb;
     position: relative;
     top: 6px;
-    right: 300px;
+    
 }
 .pied {
     background-color: #232323;
@@ -278,7 +283,7 @@ centrer1 {
     margin-left: 130px;
 }
 .point .points {
-    margin-left: 800px;
+    margin-left: 1100px;
 }
 .fin {
     background-color: black;
