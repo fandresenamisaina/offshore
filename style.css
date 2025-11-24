@@ -1,111 +1,62 @@
+body    {
+    width: 1496px;
+}
 .header {
-    display: flex;
+    display:    flex;
     flex-wrap: wrap;
-    justify-content: center;
-}
-.header .mi {
-    position: relative;
-    right: 920px;
-    font-size: 22px;
-}
-body {
-    background-color: #f8fafb;
+    justify-content: space-around;
+    gap: 470px;
 }
 .header i {
     color: brown;
-    position: relative;
-    left: 450px;
-    bottom: 20px;
 }
 .header p a {
     color: grey;
-    position: relative;
-    left: 450px;
-    font-size: 19px;
-    bottom: 20px;
 }
-#p{
-    background-color: #dddddd;
-    height: 105px;
-    width: 100%;
+#p .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:#ebebeb;
+    gap: 240px;
 }
-#p .row .s2 {
-    position: relative;
-    left: 85px;
+#p .row .s8 {
+margin-top: 50px;    
 }
-#p .titre {
-    position: relative;
-    bottom: 15px;
-    font-size: 30px;
-}
-#p .row .s8 a{
+#p .row .s8 a {
     color: grey;
     border-right: solid;
-    position: relative;
-    left: 400px;
-    padding: 10px;
-    font-size: 15px;
-    line-height: 100px;
+    padding: 5px;
 }
-#p .row .s8 a:last-child{
+#p .row .s8 a:last-child {
     border-right: none;
 }
 .conseil {
-    background-image: url(image/ma.png);
-    padding: 200px;
-    background-repeat: no-repeat;
-    background-size: 1700px;
-}
-.conseil p {
     color: white;
-    width: 700px;
-    font-size: 20px;
-    position: relative;
-    top: 50px;
+    padding-top: 290px;
+    padding-left: 200px;
+    background-image:url(image/ma.png);
+    background-size: cover;
+    height: 800px;
 }
-.conseil h1 {
-    color: white; 
-    width: 800px;
-    font-size: 80px;
-    position: relative;
-    top: 50px;
-}
-.conseil .titre  {
-    color: white;
+.conseil .titre {
     border-right: solid;
-    position: relative;
     border-color: brown;
-    top: 50px;
-    margin-inline: 480px;
-    right: 480px;
-}
-.conseil .boutton {
+    margin-inline: 500px;
     position: relative;
-    top: 15px;
-}
-.conseil .tête {
-    position: relative;
-    top: 60px;
+    right: 500px;
 }
 .conseil .boutton button {
-    border: 3px solid;
+    border: solid;
     border-radius: 60px;
     border-color: white;
-    background: transparent;
-    font-size: 30px;
-    margin-inline: 20px;
-    position: relative;
-    right: 20px;
+    background-color: transparent;
     padding: 20px;
-    top: 70px;
-}
-.conseil .boutton a {
-    text-align: center;
-    text-decoration: none;
-    font-size: large;
-    padding: 50px;
+    margin-inline: 30px;
     position: relative;
-    bottom: 5px;
+    right: 30px;
+}
+.conseil .boutton button a {
     color: white;
 }
 .centrer {
@@ -178,50 +129,42 @@ body {
     width: 500px;
     font-size: 17px;
 }
-.card  .card-content{
+.card .card-content  {
+    background-color: #f8fafb;
+    background-size: 1496px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #f8fafb;
-}
-.card .card-content  {
-    background-size: 1800px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    
 }
 .card .card-content .s6 p {
     font-size: 17px;
-}
-.card .card-content .s6  {
-        padding-left: 250px;
-}
-.card .card-content .s6 a {
-    position: relative;
-    right: 230px;
+    margin-left: 250px;
 }
 .card .card-content .s6 a img {
-margin-left: 30px;
+margin-left: 100px;
+}
+.card .card-content .row .s6 h3 {
+    margin-left: 250px;
+}
+.card .card-content .row .s6 h5 {
+    margin-left: 250px;
 }
 .ki .row  {
     padding: 40px;
     background-image: url(image/img.png);
     color: white;
-    padding-left: 240px;
     gap: 130px;
 }
 .ki .row .s6 a {
-    position: relative;
-    left: 290px;
     border: solid white;
     border-radius: 60px;
     top: 50px;
-    padding: 30px;
 }
 .article .row {
     gap: 80px;
 }
-.centrer1 {
+centrer1 {
     padding: 10px;
 }
 .centrer1 h1 {
@@ -247,6 +190,11 @@ margin-left: 30px;
 .article .row a {
     color: #a59577;
 }
+.article .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .centrer3 {
     padding: 10px;
 }
@@ -262,15 +210,6 @@ margin-left: 30px;
     padding-bottom: 100px;
     padding-top: 40px;
 }
-body {
-    background: #222;
-    font-family: Arial, sans-serif;
-}
-body {
-    font-family: Arial, sans-serif;
-    padding-top: 40px;
-    overflow-x: hidden; 
-}
 .avis {
     background: #555;
     color: white;
@@ -285,7 +224,7 @@ body {
     right: 300px;
 }
 .avis::after {
-     content: "";
+    content: "";
     position: absolute;
     bottom: -20px;
     left: 50%;
@@ -317,7 +256,6 @@ body {
 }
 .pied {
     background-color: #232323;
-    width: 1850px;
 }
 .pied .row .s6 h1 {
     color: white;
@@ -340,10 +278,7 @@ body {
     margin-left: 130px;
 }
 .point .points {
-    position: relative;
-    left: 1050px;
-    bottom: 20px;
-    padding: 30px;
+    margin-left: 800px;
 }
 .fin {
     background-color: black;
