@@ -1,32 +1,22 @@
 
-.header {
-    display:    flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 470px;
-}
 .header i {
     color: brown;
 }
 .header p a {
     color: grey;
 }
-#p .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color:#ebebeb;
-    gap: 240px;
+#p {
+    background-color: #dfdfdf;
 }
-#p .row .s8 {
+#p .row .s7 {
 margin-top: 50px;    
 }
-#p .row .s8 a {
+#p .row .s7 a {
     color: grey;
     border-right: solid;
     padding: 5px;
 }
-#p .row .s8 a:last-child {
+#p .row .s7 a:last-child {
     border-right: none;
 }
 .conseil {
