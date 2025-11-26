@@ -30,11 +30,11 @@ header{
 }
 
 .l3 a{
-    position: absolute;
+    position: absolute ;
     color: black;
-    padding: 15px;
+    padding-left:100px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 500px;
 }
 
 .text{
@@ -73,7 +73,7 @@ footer{
         font-size: 20px;
     }
     #s{
-        display: block
+        display: none
     }
     .l6 h3 {
         font-size: 30px;
@@ -97,6 +97,15 @@ footer{
         font-size: xx-small;
     }
 }
+@media screen and (max-width:1024px) {
+    body h1{
+        font-size: 40px;
+    }
+    body h2{
+        font-size: 33px;
+    }
+    
+}
 @media screen and (max-width:768px) {
 
     .liens{
@@ -119,6 +128,9 @@ footer{
         font-size: 19px;
     }
     #s{
+        display: none;
+    }
+    #my-col{
         display: none;
     }
     .m10{
