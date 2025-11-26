@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Styles Personnalisés */
+  
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PIYA - E-commerce Materialize</title>
+</head>
+<body>
+
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo black-text">PIYA</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#" class="black-text">Accueil</a></li>
+        <li><a href="#" class="black-text">Boutique</a></li>
+        <li><a href="#" class="black-text">Contact</a></li>
+        <li><a href="#" class="black-text"><i class="material-icons">shopping_cart</i></a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+    </div>
+  </nav>
+
+  <ul id="nav-mobile" class="sidenav">
+    <li><a href="#">Accueil</a></li>
+    <li><a href="#">Boutique</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+  <div id="index-banner" class="parallax-container col l12">
+    <div class="section no-pad-bot">
+      <div class="container center-align hero-banner">
+        <br><br>
+        <h1 class="header center white-text text-lighten-2">PIYA</h1>
+        <div class="row center">
+          <h5 class="header col s12 white-text light">PIYA, de tout partout, pour vous. PIYA MAYOTTE. LA NOUVELLE MODE.</h5>
+        </div>
+        <div class="row center">
+          <a href="#" id="download-button" class="btn-large waves-effect waves-light purple lighten-1">COLLECTION ÉTÉ 2025</a>
+        </div>
+        <br><br>
+      </div>
+      
+    </div>
+    <div class="parallax"><img src="image/sarah-dorweiler-fr0J5-GIVyg-unsplash.jpg" alt="Image de fond de bannière" style="filter: brightness(0.8);"></div>
+  </div>
+
+  <div class="container" id="categories">
+    <div class="section">
+      <h3 class="center">Catégorie</h3>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card card-category" style="background-image: url('image/trinh-minh-th-twN2viFvWd0-unsplash.jpg');">
+            <a href="#" class="btn waves-effect waves-light white black-text">MAISON</a>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card card-category" style="background-image: url('image/toa-heftiba-ZoAhudO-BQM-unsplash.jpg');">
+            <a href="#" class="btn waves-effect waves-light white black-text">FEMME</a>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card card-category" style="background-image: url('image/thom-bradley-mwa_nzFpnJw-unsplash.jpg');">
+            <a href="#" class="btn waves-effect waves-light white black-text">ACCESSOIRE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container" id="produits">
+    <div class="section">
+      <h3 class="center">Produits récents</h3>
+      <div class="row">
+        
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="image/andrey-zvyagintsev-HiDFZMT8Z5s-unsplash.jpg" alt="Enceinte portable" class="img">
+            </div>
+            <div class="card-content center">
+              <p>Enceinte portable PIYA</p>
+              <p><b>50,00€</b></p>
+            </div>
+            <div class="card-action center">
+              <a href="#" class="btn waves-effect waves-light purple lighten-1">AJOUTER AU PANIER</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="image/laura-chouette-W-7k72ThEr0-unsplash.jpg" alt="Short galbant" class="img">
+            </div>
+            <div class="card-content center">
+              <p>Short galbant</p>
+              <p><b>25,00€</b></p>
+            </div>
+            <div class="card-action center">
+              <a href="#" class="btn waves-effect waves-light purple lighten-1">AJOUTER AU PANIER</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="image/marcus-loke-xXJ6utyoSw0-unsplash.jpg" alt="Robe et top" class="img">
+            </div>
+            <div class="card-content center">
+              <p>Robe et top de plage simple</p>
+              <p><b>45,00€</b></p>
+            </div>
+            <div class="card-action center">
+              <a href="#" class="btn waves-effect waves-light purple lighten-1">AJOUTER AU PANIER</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container" id="contact">
+    <div class="section">
+      <h3 class="center">Contactez Nous</h3>
+      <div class="row">
+        <div class="col l3"></div>
+        <form class="col s12 l6 center">
+          <div class="row l12">
+            <div class="input-field col s12 m6 l12">
+              <input id="name" type="text" class="validate">
+              <label for="name">Nom</label>
+            </div>
+            <div class="input-field col s12 m6 l12">
+              <input id="email" type="email" class="validate">
+              <label for="email">E-mail</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12 l12">
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Message</label>
+            </div>
+          </div>
+          <div class="row center">
+            <button class="btn waves-effect waves-light purple lighten-1" type="submit" name="action">ENVOYER</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="row center grey lighten-4" style="padding: 20px; margin-top: 30px;">
+        <p>Recevez des promotions exclusives et nouveautés</p>
+        <div class="row">
+          <div class="input-field col s12 m8 offset-m2">
+            <input id="newsletter_email" type="email" class="validate">
+            <label for="newsletter_email">Votre E-mail</label>
+            <button class="btn waves-effect waves-light black" type="submit" name="action" style="margin-top: 10px;">M'INSCRIRE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer grey lighten-2">
+    <div class="container">
+      <div class="row center">
+        <a class="black-text" href="#">Accueil</a>
+        &nbsp;|&nbsp;
+        <a class="black-text" href="#">Boutique</a>
+        &nbsp;|&nbsp;
+        <a class="black-text" href="#">A propos</a>
+        &nbsp;|&nbsp;
+        <a class="black-text" href="#">Contact</a>
+      </div>
+    </div>
+    <div class="footer-copyright black-text center">
+      <div class="container">
+      © 2025 PIYA
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    // Initialisation des composants Materialize
+    document.addEventListener('DOMContentLoaded', function() {
+      // Initialisation de la Navbar mobile
+      var elemsSidenav = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(elemsSidenav);
+      
+      // Initialisation du Parallax
+      var elemsParallax = document.querySelectorAll('.parallax');
+      M.Parallax.init(elemsParallax);
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+  .parallax-container {
+      min-height: 400px; /* Hauteur de la bannière principale */
+      line-height: 0;
+      color: rgba(255,255,255,.9);
+    }
+    .parallax-container .section {
+      width: 100%;
+    }
+    .hero-banner {
+      background-color: rgba(0, 0, 0, 0.4); /* Ombre sur l'image */
+      padding: 20px;
+    }
+    .parallax-container{
+      /* inset: 0;
+       */
+      width: 100%;
+    }
+    .card-category {
+      height: 350px; /* Hauteur fixe pour les cartes de catégorie */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+    }
+    .card-category a {
+      margin-bottom: 20px;
+    }
+    .img{
+      height: 300px;
+    }
