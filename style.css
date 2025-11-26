@@ -1,5 +1,5 @@
   .parallax-container {
-      min-height: 400px; /* Hauteur de la bannière principale */
+      min-height: 400px;
       line-height: 0;
       color: rgba(255,255,255,.9);
     }
@@ -7,16 +7,14 @@
       width: 100%;
     }
     .hero-banner {
-      background-color: rgba(0, 0, 0, 0.4); /* Ombre sur l'image */
+      background-color: rgba(0, 0, 0, 0.4);
       padding: 20px;
     }
     .parallax-container{
-      /* inset: 0;
-       */
       width: 100%;
     }
     .card-category {
-      height: 350px; /* Hauteur fixe pour les cartes de catégorie */
+      height: 350px; 
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
