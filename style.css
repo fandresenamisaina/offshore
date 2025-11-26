@@ -41,10 +41,6 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
-.i9{
-    height: 350px;
-    margin-top: 74px;
-}
 footer{
     background-color: #256c6e;
 }
@@ -54,9 +50,8 @@ footer{
 #s{
     display: none;
 }
+
 @media screen and (max-width:1440px){
-
-
     header #my-col{
         display:grid;
     }
@@ -97,6 +92,7 @@ footer{
         font-size: xx-small;
     }
 }
+
 @media screen and (max-width:1024px) {
     body h1{
         font-size: 40px;
@@ -106,6 +102,7 @@ footer{
     }
     
 }
+
 @media screen and (max-width:768px) {
 
     .liens{
@@ -143,8 +140,8 @@ footer{
     #v{
         display: none;
     }
-
 }
+
 @media screen and (max-width:452px){
 
     #n{
@@ -162,7 +159,6 @@ footer{
     header h2{
         font-size: 25px;
     }
-
     .center .m2{
         display: none;
     }
