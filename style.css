@@ -8,15 +8,15 @@
 #p {
     background-color: #dfdfdf;
 }
-#p .row .s7 {
+#p .nav-wrapper .row  .l6 {
 margin-top: 50px;    
 }
-#p .row .s7 a {
+#p .nav-wrapper .row  .l6 a {
     color: grey;
     border-right: solid;
     padding: 5px;
 }
-#p .row .s7 a:last-child {
+#p .nav-wrapper .row  .l6 a:last-child {
     border-right: none;
 }
 .conseil {
@@ -226,7 +226,6 @@ margin-left: 100px;
     position: relative;
 
 }
-
 .auteur span {
     font-size: 14px;
     letter-spacing: 2px;
@@ -235,20 +234,17 @@ margin-left: 100px;
     top: 6px;
     
 }
-.pied {
-    background-color: #232323;
-}
-.pied .row .s6 h1 {
+.page-footer .row .s6 h1 {
     color: white;
     text-align: left;
     margin-left: 130px;
 }
-.pied .row .s6 .op {
+.page-footer .row .s6 .op {
     color: #515151;
     text-align: left;
     margin-left: 130px;
 }
-.pied .row  .s6 {
+.page-footer .row  .s6 {
     padding: 50px;
     text-align: center;
 }
@@ -261,17 +257,18 @@ margin-left: 100px;
 .point .points {
     margin-left: 1100px;
 }
-.fin {
+.footer-copy­right {
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
     font-size: 20px;
 }
-.fin i {
+.footer-copy­right i {
     position: absolute;
     left: 1330px;
 }
+/* Tablette */
  @media screen and (max-width:768px) {
     .pied  .point .points {
     margin-left: 550px;
@@ -326,7 +323,7 @@ width: 100%;
     text-align: center;
 }
 
-.fin i {
+.footer-copy­right i {
     position: static;
     display: inline-block;
     margin-top: 10px;
