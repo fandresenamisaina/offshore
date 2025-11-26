@@ -41,9 +41,6 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
-
-
-
 .i9{
     height: 350px;
     margin-top: 74px;
@@ -59,9 +56,7 @@ footer{
 }
 @media screen and (max-width:1440px){
 
-    header .l2 img{
-        width: 200px;
-    }
+
     header #my-col{
         display:grid;
     }
@@ -77,27 +72,11 @@ footer{
     .nav-wrapper input{
         font-size: 20px;
     }
-    .row .m3 img {
-        width: 230px;
-        height: 200px;
-    }
-
-    .row img {
-        width: 500px;
-    }
-
-    .center img{
-        max-width: 1000px;
-    }
     #s{
         display: block
     }
     .l6 h3 {
         font-size: 30px;
-    }
-    footer .row .l4 img {
-        width: 250px;
-        height: auto;
     }
     p{
         font-size: smaller;
@@ -119,9 +98,7 @@ footer{
     }
 }
 @media screen and (max-width:768px) {
-    header .l2 img{
-        width: 120px;
-    }
+
     .liens{
         font-size: 15px;
     }
@@ -144,23 +121,8 @@ footer{
     #s{
         display: none;
     }
-    .m12 img{
-        max-width:650px ;
-    }
-    .center img{
-        width: 760px;
-    }
-
-    .row img {
-        width: 250px;
-        
-    }
     .m10{
         margin-left: 200px;
-    }
-
-    footer .m4 img{
-        width: 150px;   
     }
     
     #n{
@@ -168,11 +130,6 @@ footer{
     }
     #v{
         display: none;
-    }
-
-    footer .row .m3 img{
-        width: 180px;
-        height: auto;
     }
 
 }
@@ -187,18 +144,13 @@ footer{
     #y{
         display: block;
     }
-    .center img{
-        width: 449px;
-    }
     body h1{
         font-size: 25px;
     }
     header h2{
         font-size: 25px;
     }
-    .center .s11 img{
-        width: 415px;
-    }
+
     .center .m2{
         display: none;
     }
@@ -208,12 +160,5 @@ footer{
     header .nav-wrapper .s2 input{
         font-size: 15px;
     }
-    footer .row .m3 img{
-        width: 120px;
-    }
-    footer .row .s3 img{
-        width: 100px;
-    }
-    
 }
 
