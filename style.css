@@ -23,8 +23,6 @@ margin-top: 50px;
     color: white;
     padding-top: 290px;
     padding-left: 200px;
-    background-image:url(image/ma.png);
-    background-size: cover;
 }
 .conseil .titre {
     border-right: solid;
@@ -56,37 +54,28 @@ margin-top: 50px;
 .centrer p {
     text-align: center;
 }
-.service {
-    padding: 20px;
-}
-.service .s6 p {
+.container .row .s6 p {
     width: 350px;
 }
-.service .s6{
+.container .row .s6{
     display: flex;
     flex-wrap: wrap;
     padding-left: 130px;
 }
-.service .s6 .mir {
-    padding-left: 20px;
-    font-size: 16px;
+.container {
+    display: inline;
 }
-.service .card .card-content  {
-    display: flex;
-    flex-wrap: wrap;
-    width: 550px;
-    height: 150px;
-}
-.service .card .card-content  .ka {
+.container  .row .card .card-content  .ka {
     width: 350px;
     padding-left: 20px;
 }
-.service {
+.container .row  {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
     padding-top: 10px;
+}
+.container .row .mora {
+    margin-left: 120px;
 }
 .service1 {
     padding: 20px;
