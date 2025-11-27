@@ -276,7 +276,6 @@ margin-left: 100px;
     position: absolute;
     left: 1330px;
 }
-/* Tablette */
  @media screen and (max-width:768px) {
     .pied  .point .points {
     margin-left: 550px;
@@ -351,4 +350,112 @@ width: 100%;
 #p .row .m8 {
     font-size: 10px;
 }
+}
+@media screen and (max-width:725px) {
+    .conseil {
+        font-size: 10px;
+        padding-top: 10px;
+        padding-left: 0;
+        padding-bottom: 20px;
+        margin-bottom: -250px;
+    }
+    .conseil .ne {
+        font-size: 20px;
+    }
+    .conseil .titre {
+        font-size: 20px;
+        border: none;
+        text-decoration: underline;
+        color: brown;
+    }
+    .container .row  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.container .row .mir {
+    width:50%;
+}
+.container .row .mir p {
+    font-size: medium;
+    width: 300px;
+}
+.card .card-content .s6 p {
+    font-size: 10px;
+    width: 200%;
+}
+.card .card-content .s6 a img {
+    position: relative;
+    top: 100px;
+}
+.card .card-content .row h5 {
+    position: relative;
+    left: 100px ;
+}
+.mage  {
+    padding: 0;
+}
+.page-footer .row .s6 {
+        padding: 20px 10px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .page-footer .row .s6 h1 {
+        margin-left: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .page-footer .row .s6 .op {
+        margin-left: 0;
+        font-size: 13px;
+        text-align: center;
+    }
+    .ff i {
+        margin-left: 0;
+        padding-left: 0;
+        margin: 8px;
+        font-size: 18px;
+        display: inline-block;
+    }
+    .point .points {
+        margin-left: 0;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .footer-copy­right {
+        font-size: 14px;
+        padding: 12px;
+        position: relative;
+    }
+
+    .footer-copy­right i {
+        position: static;
+        margin-left: 5px;
+        display: inline-block;
+        font-size: 16px;
+    }
+        .ki .row {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .ki .row .s6 {
+        width: 100%;
+    }
+
+    .ki .row .s6 a {
+        top: 10px;
+        padding: 10px 20px;
+        font-size: 14px;
+        display: inline-block;
+        margin: 0 auto;
+    }
 }
