@@ -4,16 +4,14 @@ header{
 #y{
     display: none;
 }
-.liens{
+.liens {
     display: flex;
     flex-wrap:wrap-reverse;
     justify-content: space-around;
-    padding-top: 30px;
     font-size: 25px;
     
 }
 .nav-wrapper input{
-    margin-top: 30px;
     font-size: 25px;
 }
 
@@ -53,7 +51,7 @@ footer{
 
 @media screen and (max-width:1440px){
     header #my-col{
-        display:grid;
+        display:block;
     }
     .liens{
         font-size: 20px;
@@ -61,46 +59,9 @@ footer{
     header .nav-wrapper input{
         font-size: 20px;
     }
-    body h2{
-        font-size:50px;
-    }
-    .nav-wrapper input{
-        font-size: 20px;
-    }
     #s{
         display: none
     }
-    .l6 h3 {
-        font-size: 30px;
-    }
-    p{
-        font-size: smaller;
-    }
-    .container h5{
-        font-size:medium;
-    }
-    .container .m8 h6{
-        font-size: smaller;
-    }
-    .m10 h4{
-        font-size: small;
-    }
-    .container .col a{
-        font-size: xx-small;
-    }
-    .col input{
-        font-size: xx-small;
-    }
-}
-
-@media screen and (max-width:1024px) {
-    body h1{
-        font-size: 40px;
-    }
-    body h2{
-        font-size: 33px;
-    }
-    
 }
 
 @media screen and (max-width:768px) {
@@ -111,18 +72,6 @@ footer{
     header .nav-wrapper input{
         font-size: 10px;
         margin-right: 10px;
-    }
-    body h2{
-        font-size: 25px;
-    }
-    body h1{
-        font-size: 30px;
-    }
-    .l6 h3{
-        font-size: 20px;
-    }
-    body h4{
-        font-size: 19px;
     }
     #s{
         display: none;
@@ -140,8 +89,7 @@ footer{
     #v{
         display: none;
     }
-}
-
+}   
 @media screen and (max-width:452px){
 
     #n{
@@ -153,12 +101,6 @@ footer{
     #y{
         display: block;
     }
-    body h1{
-        font-size: 25px;
-    }
-    header h2{
-        font-size: 25px;
-    }
     .center .m2{
         display: none;
     }
@@ -169,4 +111,11 @@ footer{
         font-size: 15px;
     }
 }
-
+@media screen and (max-width:320px) {
+    input{
+        display: none;
+    }
+    footer p{
+        font-size: 10px;
+    }   
+}
