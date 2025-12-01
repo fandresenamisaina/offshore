@@ -297,15 +297,6 @@ width: 100%;
 .conseil .ne {
     width: 70%;
 }
-.header {
-    background-color: gray;
-}
-.header i {
-    display: none;
-}
-.header p a {
-    display: none;
- }
  .centrer {
     padding: 0;
 }
