@@ -77,6 +77,10 @@ margin-top: 50px;
     width: 350px;
     padding-left: 20px;
 }
+.container  .row .card {
+    position: relative;
+    right: 135px;
+}
 .container .row  {
     display: flex;
     flex-wrap: wrap;
@@ -280,6 +284,10 @@ margin-left: 100px;
     .pied  .point .points {
     margin-left: 550px;
     }
+    .container  .row .card {
+    position: relative;
+    right: 0;
+}
     .conseil .pa {
         width: 64%;
     }
@@ -448,5 +456,8 @@ width: 100%;
         font-size: 14px;
         display: inline-block;
         margin: 0 auto;
+    }
+       #p .nav-wrapper .row  .l6 a {
+    border-right: none;
     }
 }
