@@ -288,10 +288,8 @@ margin-left: 0;
 width: 100%;
 }
 .conseil {
-
     color: white;
-    padding-left: 10px;
-    padding-top: 60px;
+    padding: 6px;
     height: 500px;
 }
 .conseil .ne {
@@ -349,6 +347,7 @@ width: 100%;
         padding-left: 0;
         padding-bottom: 20px;
         margin-bottom: -250px;
+        padding: 15px;
     }
     .conseil .ne {
         font-size: 20px;
